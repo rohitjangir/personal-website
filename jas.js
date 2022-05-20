@@ -12,10 +12,10 @@ list.addEventListener('click',()=>{
     navbar.classList.toggle('hlist');
 })
 
-now = new Date();
-localtime = now.toString();
-// document.write("<p><strong>Local time:</strong> " + localtime + "</p>");
-document.getElementById('time').innerHTML = localtime;
+// now = new Date();
+// localtime = now.toString();
+// // document.write("<p><strong>Local time:</strong> " + localtime + "</p>");
+// document.getElementById('time').innerHTML = localtime;
 
 
 document.getElementById("temp").onclick = function() {
